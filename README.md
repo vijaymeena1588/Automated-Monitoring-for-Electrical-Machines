@@ -5,17 +5,28 @@ Implemented an automated monitoring and data acquisition system for DC/AC electr
 
 ## ⚙️ Key Features
 
-- **Real-Time Data Acquisition:** Precision voltage and current sensors are interfaced with an Arduino microcontroller to capture electrical parameters in real-time. The system calculates and displays power consumption based on these measurements.
+- **Real-Time Data Acquisition:** The system's hardware utilizes precision sensors for voltage and current measurement. The circuit diagrams below illustrate the sensor setup and how they interface with the microcontroller.
+
+  ### Voltage Divider Circuit
+  <p align="center">
+    <img src="image/Voltage%20Divider%20Circuit.png" alt="Voltage Divider Circuit" width="600"/>
+  </p>
+
+  ### Voltage and Current Circuit
+  <p align="center">
+    <img src="image/Voltage%20And%20Current%20Circuit.png" alt="Voltage and Current Circuit" width="600"/>
+  </p>
 
 - **Hardware-Software Integration:** The core of the project lies in the seamless integration of a physical sensor setup with a robust software interface. My role involved developing the communication protocols and control logic to ensure reliable data flow from the hardware to the software.
 
 - **Automated Calibration:** The current sensor's zero-current offset is automatically calibrated during startup to guarantee the accuracy of all subsequent current measurements.
 
-- **Python-Based GUI:** A custom graphical user interface (GUI) was developed using **CustomTkinter** and **Matplotlib**. This application provides a user-friendly way to:
-    - Select COM ports and configure experiment parameters.
-    - Visualize real-time and historical data through dynamic, customizable graphs.
-    - Display a comprehensive data table of all recorded measurements.
-    
+- **Python-Based GUI:** A custom graphical user interface (GUI) was developed using **CustomTkinter** and **Matplotlib**. This application provides a user-friendly way to visualize real-time and historical data.
+
+  ### GUI for Data Acquisition
+  <p align="center">
+    <img src="image/GUI.png" alt="GUI for Data Acquisition" width="600"/>
+  </p>
 
 - **Predictive Maintenance & Performance Analysis:** By continuously logging and analyzing voltage and current data, the system provides the foundation for **predictive insights**. This allows for the detection of performance degradation and the early identification of potential failures, ultimately improving machine efficiency and reducing downtime.
 
