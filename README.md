@@ -1,6 +1,12 @@
 # Automated-Monitoring-for-Electrical-Machines
 Implemented an automated monitoring and data acquisition system for DC/AC electrical machines. Precision sensors were interfaced with microcontrollers to measure voltage, current, and power in real time. A Python-based GUI was designed to visualize and analyze machine performance, enabling advanced control and predictive insights. My role focused on integrating hardware with software, developing the control logic, and ensuring accurate calibration. The outcome was a robust system capable of supporting predictive maintenance and improving machine efficiency.
 
+### Machine Lab
+
+<p align="center">
+  <img src="image/Machine%20Lab.png" alt="Machine Lab" width="600"/>
+</p>
+
 ---
 
 ## ⚙️ Key Features
