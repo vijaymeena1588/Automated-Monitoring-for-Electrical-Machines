@@ -1,5 +1,10 @@
-# Automated-Monitoring-for-Electrical-Machines
-Implemented an automated monitoring and data acquisition system for DC/AC electrical machines. Precision sensors were interfaced with microcontrollers to measure voltage, current, and power in real time. A Python-based GUI was designed to visualize and analyze machine performance, enabling advanced control and predictive insights. My role focused on integrating hardware with software, developing the control logic, and ensuring accurate calibration. The outcome was a robust system capable of supporting predictive maintenance and improving machine efficiency.
+# Automated Monitoring and Data Acquisition Product for Electrical Machines (In Progress – 6-Month Timeline)
+
+Developing a product for automated monitoring and data acquisition of DC/AC electrical machines. The product integrates precision sensors with microcontrollers to measure voltage, current, and power in real time. A Python-based GUI is being designed to visualize and analyze machine performance, enabling advanced control and predictive insights.
+
+My Role: Focused on integrating hardware with software, developing the control logic, and ensuring accurate calibration.
+
+Product Outcome (Expected): A robust solution capable of supporting predictive maintenance, improving machine efficiency, and providing scalable deployment for industrial use.
 
 ### Machine Lab
 
